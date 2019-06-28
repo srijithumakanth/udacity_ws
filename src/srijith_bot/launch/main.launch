@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Srijith_bot complete localization package -->
+<launch>
+
+  <!-- Robot World Launch -->
+  <include file="$(find srijith_bot)/launch/srijith_world.launch"/>
+
+  <!-- AMCL Launch -->
+  <include file="$(find srijith_bot)/launch/amcl.launch"/>
+
+
+</launch>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Srijith_bot complete localization package -->
+<launch>
+
+  <!-- Robot World Launch -->
+  <include file="$(find slam_project)/launch/kitchen_world.launch"/>
+
+  <!-- RViz Launch -->
+  <include file="$(find slam_project)/launch/rviz.launch"/>
+
+  <!-- Teleop Launch -->
+  <include file="$(find slam_project)/launch/teleop.launch"/>
+
+  <!-- RTAB Mapping Launch -->
+  <include file="$(find slam_project)/launch/mapping.launch"/>
+
+</launch>

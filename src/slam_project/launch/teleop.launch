@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- For moving your robot in the map -->
+
+<launch>
+  <node name="teleop" pkg="slam_project" type="teleop" output="screen">
+    <remap from="/teleop/cmd_vel" to="/cmd_vel"/>
+  </node>
+</launch>
